@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    background-color: #FD6569;
+    color: black;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+}
+.container{
+    padding: 20px;
+}
+.container h1{
+    color: #FD6569;
+    padding-bottom: 5px;
+}
+.container button{
+    border-radius: 4px;
+    background-color: #FD6569;
+    color: black;
+    border: none;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container .book-container{
+    width: 23%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.add-container{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+.add-container button{
+    border-radius: 100%;
+    padding: 20px;
+    background-color: #FD6569;
+    color: black;
+    font-size: 40px;
+    border: none;
+}
+.display-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+.display-popup{
+    width: 40%;
+    background-color: #FD6569;
+    color: black;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding: 50px;
+    border-radius: 20px;
+    display: none;
+
+
+}
+.display-popup #display-popup-input1{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    background-color: #FD6569;
+    color: black;
+    border-bottom: solid black 2px;
+    outline: none;
+}
+
+.display-popup #display-popup-input2{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin-bottom: 9px;
+    background-color: #FD6569;
+    color: black;
+    border-bottom: solid black 2px;
+    outline: none;
+}
+.display-popup textarea{
+    width: 100%;
+    padding: 3px 3px 18px 10px;
+    background-color: #FD6569;
+    color: black;
+    border: solid black 2px;
+    outline: none;
+}
+.display-popup button{
+    border: none;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-weight: 100;
+    background-color: black;
+    color: #FD6569;
+}
+.display-popup textarea::placeholder{
+    color:black;
+}
+.display-popup input::placeholder{
+    color:black;
+}
